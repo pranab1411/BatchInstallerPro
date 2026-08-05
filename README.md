@@ -78,8 +78,13 @@ powershell -ExecutionPolicy Bypass -File .\Compile-BatchInstallerExe.ps1
 
 ---
 
-## 📄 License
+## 📄 License & Restrictions
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under a **Custom Non-Commercial & No-Resale License** - see the [LICENSE](LICENSE) file for full details.
+
+### 🚫 Restrictions Summary:
+- **No Commercial Use / Revenue Generation**: You may not use this software for commercial monetization or paid services without written consent.
+- **No Resale or Sublicensing**: Selling, leasing, or bundling this software for money is strictly prohibited.
+- **No Unauthorized Derivative Resale**: Any modified versions must retain author credits (**Made by Pranab Chourasiya**) and remain 100% free and non-commercial.
 
 Developed by **Pranab Chourasiya**
