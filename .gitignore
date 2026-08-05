@@ -1,0 +1,15 @@
+# Log files
+InstallLog.txt
+*.log
+
+# Marker files
+.batchinstaller_relocated
+
+# Temporary build artifacts
+*.tmp
+BatchInstallerHost.cs
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store
