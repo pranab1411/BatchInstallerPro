@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Batch Installer Pro v2.0
+    Batch Installer Pro v1.0
     A modern, high-performance silent installer deployment tool for Windows with voice notifications.
 
 .AUTHOR
@@ -191,7 +191,7 @@ $themeLogBg       = [System.Drawing.Color]::FromArgb(15, 15, 15)
 $themeLogFg       = [System.Drawing.Color]::FromArgb(0, 230, 150)
 
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Batch Installer Pro v2.0 - Developed by Pranab Chourasiya"
+$form.Text = "Batch Installer Pro v1.0 - Developed by Pranab Chourasiya"
 $form.Size = New-Object System.Drawing.Size(920, 680)
 $form.StartPosition = "CenterScreen"
 $form.MinimumSize = New-Object System.Drawing.Size(800, 580)
@@ -405,7 +405,7 @@ $pnlFooter.BackColor = $themeCardBg
 $form.Controls.Add($pnlFooter)
 
 $lblFooterTag = New-Object System.Windows.Forms.Label
-$lblFooterTag.Text = "Batch Installer Pro v2.0 | Author: Pranab Chourasiya | Location: lab softwares"
+$lblFooterTag.Text = "Batch Installer Pro v1.0 | Author: Pranab Chourasiya | Location: lab softwares"
 $lblFooterTag.Font = New-Object System.Drawing.Font("Segoe UI", 8.5)
 $lblFooterTag.ForeColor = $themeTextMuted
 $lblFooterTag.Dock = "Fill"
@@ -564,7 +564,7 @@ $btnInstall.Add_Click({
 })
 
 # Display Form
-Write-Log "Batch Installer Pro v2.0 Initialized." "SUCCESS"
+Write-Log "Batch Installer Pro v1.0 Initialized." "SUCCESS"
 Write-Log "Developed by Pranab Chourasiya" "INFO"
 Write-Log "Found $($installers.Count) installer binary file(s) in current workspace." "INFO"
 [void]$form.ShowDialog()

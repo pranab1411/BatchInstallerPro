@@ -1,4 +1,4 @@
-# Batch Installer Pro v2.0 🚀
+# Batch Installer Pro v1.0 🚀
 
 > **A modern, high-performance, self-contained silent software deployment tool for Windows with automated engine detection and custom voice alerts.**
 
